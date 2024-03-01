@@ -5,7 +5,7 @@ body {
     font-family: 'Montserrat', sans-serif;
    padding:0;
     margin: 0; 
-    background-color: blue;
+    background-color: rgb(199, 199, 213);
 }
 ul {
     padding: 0;
@@ -53,6 +53,17 @@ header li a{
    background-size: cover;
    height: 799px;
 }   
+#imagePrincipale h1{
+    font-family: "Dancing script",cursive;
+    color: green;
+    text-align: fixed;
+    font-size: 8em;
+    background: fixed;
+}
+
+
+
+
 h1{
     font-family: "Dancing Script",cursive;
     text-align: center;
@@ -86,6 +97,7 @@ box-shadow: 5px 5px 3px 1px rgba(0,0,0,0,7);
 }
 #textIntro{
     padding: 0px 20%;
+    background: blue;
 }
 #prestation{
     display: flex;
@@ -93,20 +105,20 @@ box-shadow: 5px 5px 3px 1px rgba(0,0,0,0,7);
     justify-content : space-between;
     padding: 30px 10%;
 }
-.imagesPrestation h4{
+#imagesPrestations h4{
     font-family: 'Dancing Script', cursive;
     text-align: center;
     font-size: 1.8em;
     margin: 15px;
     font-weight: 300;
 }
-.imagesprestations img{
-border-radius: 10px;
-box-shadow: 5px 5px 3px 1px black(0,0,0,0,7);
+#imagesPrestations img {
+border-radius: 20px;
+box-shadow: 10px 10px 10px 10px black(5,5,5,5,7);
 
 
 }
-.imagesprestations img:hover {
+#imagesPrestations img:hover {
     opacity: 0.5;
     transform: scale(1.05);
     transition: 0.6s ease-in-out;
@@ -114,7 +126,7 @@ box-shadow: 5px 5px 3px 1px black(0,0,0,0,7);
 footer {
     background-color: #524a3a;
     color: #FFFAE1;
-    padding: 20px 0 10px 0;
+    padding: 50px 60px 50px 100px;
     text-align: center;
 
 }
@@ -131,9 +143,8 @@ input, textarea, button {
     font-family: 'Advent Pro',sans-serif;
     border-radius: 8px;
 }
-textarea {
-    height: 120px;
-}
+
+
 button {
     font-size: 1.5em;
     background-color: #FFFAE1;
@@ -170,7 +181,7 @@ button:hover {
     display: inlign-block;
     margin: 0 15px;
     font-size: 1.3em;
-    color: #FFFAE1;
+    color: #330976;
 
 
 } 
