@@ -7,7 +7,11 @@
     gap:20px;
    /* justify-content:center;*/
     align-items:start;
-    padding: 200px;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    width:50%;
     
 }
 
@@ -172,4 +176,9 @@
 }
 .cadr {
     border: solid;
+}
+@media screen and (min-width:600px){
+    .container {
+        margin: 1em 2em;
+    }
 }
