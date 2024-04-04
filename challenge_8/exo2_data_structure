@@ -1,0 +1,14 @@
+//function that takes an array of these objects and returns a new array containing only the people who are over 30 years old.
+let user = {
+  name:"my_name",
+  age:31,
+  Email: "my_email@gmail.com",
+}
+if (user.age>=30) {
+    console.log(user.name);
+    console.log(user.age);
+}
+function mafonction(age) {
+   
+ return 
+}
