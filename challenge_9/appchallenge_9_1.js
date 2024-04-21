@@ -1,5 +1,5 @@
 //array of numbers and returns the average of all the even numbers.
-let lesannees= [2000,2001,2002,2004,2006,2003,2010]
+let lesannees= [2000,2001,2002,2004,2006,2003,2010,2011]
 const evens=lesannees.filter(function(item) {
 let newarray=item%2===0;
   return item%2===0;

@@ -38,7 +38,7 @@
 // methode map
 const getAverage=livres.map((pages)=>result);
 console.log(getAverage);
-
+// map methode i don't think what is correct or no
 
 
 

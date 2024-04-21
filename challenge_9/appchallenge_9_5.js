@@ -1,9 +1,9 @@
 //const colegues=["Fazia","zina","kahina","karima","Fazia","samira","kahina","Fazia"]
 
 let personnes = [
-    { nom: "Alice", age: 21,city:"Tizi-ouzou"},
-    { nom: "Bob", age: 20 ,city:"Tizi-ouzou"},
-    { nom: "Charlie", age: 20,city:"Alger" },
+    { nom: "Zina", age: 21,city:"Tizi-ouzou"},
+    { nom: "serine", age: 20 ,city:"Alger"},
+    { nom: "Samira", age: 20,city:"Alger" },
   ];
   
   const result=personnes.reduce((prev,personnes,city)=>{
